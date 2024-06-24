@@ -1,0 +1,1 @@
+<!-- This project uses route groups in Next Js.  -->
