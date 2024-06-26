@@ -8,4 +8,8 @@ all the files added in the gitignore it will be automatically ignored from being
 it is important to write middleware in its correct letters as middleware is a reserved keyword in Nextjs.
 usually by default the middleware protect the authenticated routes, but not with the new update, all routes are public by default, it is up to us to change the middlware configuration.
 shadcn-ui comes preloaded with lucide-react when you choose default otherwise when you choose newyork it will come with radix icons.
+creating API routes with HONO in nextjs.
+the structure that is preferred is to create an api folder, instead of writing page.tsx we use route.ts, we use route handlers like GET, POST, PATCH and PUT.
+if we need aditional routes we will have to create additional folder.
+So basically we have to create an endpoint that is going to go through HONO instead of regular handlers and API folders will be used for that.
   -->
