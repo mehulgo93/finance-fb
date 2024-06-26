@@ -14,13 +14,8 @@ if we need aditional routes we will have to create additional folder.
 So basically we have to create an endpoint that is going to go through HONO instead of regular handlers and API folders will be used for that.
 Working with HONO is really powerful as it allows RPC which means sharing of the API specifications between server and client. you can pass a bunch of middlewares when you working with HONO. Middlewares can be validators, permission protectors etc. 
 I used GPT to give me the differences between HONO and Nextjs API routes and this is what it says so please note this down
+
   -->
-
-
-
-
-
-
 
 
 Key differences between HONO and Nextjs API routes
