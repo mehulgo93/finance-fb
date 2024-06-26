@@ -5,5 +5,7 @@ Authentication is written using the square brackets, this gives you access to al
 the main purpose of this route groups is to organize all the code.
 the main purpose of moving the root file to the dashboard folder is because we use the brackets for dashboard it will not have any effect on the routes.
 all the files added in the gitignore it will be automatically ignored from being committed to github.
-
+it is important to write middleware in its correct letters as middleware is a reserved keyword in Nextjs.
+usually by default the middleware protect the authenticated routes, but not with the new update, all routes are public by default, it is up to us to change the middlware configuration.
+shadcn-ui comes preloaded with lucide-react when you choose default otherwise when you choose newyork it will come with radix icons.
   -->
