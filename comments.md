@@ -14,6 +14,8 @@ if we need aditional routes we will have to create additional folder.
 So basically we have to create an endpoint that is going to go through HONO instead of regular handlers and API folders will be used for that.
 Working with HONO is really powerful as it allows RPC which means sharing of the API specifications between server and client. you can pass a bunch of middlewares when you working with HONO. Middlewares can be validators, permission protectors etc. 
 I used GPT to give me the differences between HONO and Nextjs API routes and this is what it says so please note this down
+using tailwind classes like max-w-screen-2xl mx-auto we are adjusting the header to only expand up to a certain and after that it will stop expanding further.
+the reason to use hooks like pathname and using use client is because by default they are server components, server components can be used to write UI and you can use them as your get API route. whenever you need a hook in a component you have to use "use client".
 
   -->
 
